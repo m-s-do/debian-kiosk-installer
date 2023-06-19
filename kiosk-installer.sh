@@ -60,6 +60,7 @@ do
     --no-first-run \
     --start-maximized \
     --disable \
+    --disable-pinch \
     --disable-translate \
     --disable-infobars \
     --disable-suggestions-service \
