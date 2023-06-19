@@ -43,7 +43,7 @@ cat > /etc/lightdm/lightdm.conf << EOF
 autologin-user=kiosk
 user-session=openbox
 
-xserver-command=X -nocursor
+xserver-command=X -s 0 dpms -nocursor
 EOF
 
 # create autostart
