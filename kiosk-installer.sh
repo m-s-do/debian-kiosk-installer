@@ -5,7 +5,6 @@ apt-get update
 
 # get software
 apt-get install \
-	#unclutter \
     xorg \
     chromium \
     openbox \
@@ -54,7 +53,6 @@ fi
 cat > /home/kiosk/.config/openbox/autostart << EOF
 #!/bin/bash
 
-#unclutter -idle 0.1 -grab -root &
 
 while :
 do
