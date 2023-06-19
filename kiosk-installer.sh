@@ -67,7 +67,7 @@ do
     --disable-save-password-bubble \
     --disable-session-crashed-bubble \
     --incognito \
-    --kiosk "https://neave.tv/"
+    --kiosk "http://192.168.0.1:8080/webvisu.htm/"
   sleep 5
 done &
 EOF
