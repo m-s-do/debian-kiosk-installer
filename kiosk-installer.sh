@@ -53,6 +53,7 @@ fi
 cat > /home/kiosk/.config/openbox/autostart << EOF
 #!/bin/bash
 
+sleep 20
 
 while :
 do
